@@ -8,3 +8,9 @@ navbar:
        href: post1.html
      - text: "post2"
        href: post2.html
+output:
+  html_document:
+    theme: cosmo
+    include:
+      after_body: footer.html
+    css: styles.css
